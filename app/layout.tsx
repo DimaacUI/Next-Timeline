@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Next Timeline",
-  description: "Simple TimeLine Animation using GSAP & Next JS",
+  description: "Simple TimeLine Animation using GSAP & Next",
 };
 
 export default function RootLayout({
