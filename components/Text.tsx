@@ -65,7 +65,7 @@ const Text = ({
     <div className="pointer-events-none absolute inset-x-0 bottom-10 sm:bottom-20 sm:left-20 z-20">
       <h1
         ref={elRef as React.RefObject<HTMLHeadingElement | null>}
-        className={`text-[clamp(2.25rem,7vw,4.75rem)] font-normal leading-[1.05] tracking-tight text-white md:text-left${shadow} opacity-0`}
+        className={`text-[clamp(2.25rem,7vw,4.75rem)] font-normal leading-[1.05] tracking-tight text-white max-sm:text-center md:text-left${shadow} opacity-0`}
       >
         {children}
       </h1>
